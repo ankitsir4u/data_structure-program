@@ -6,10 +6,9 @@ int main()
     scanf("%d",&n);
     int arr[n];
     printf("enter the element in array:\n");
-    for(i=0;i<n;i++)
-    scanf(" %d",&arr[i]);
+    for(i=0;i<n;i++){scanf(" %d",&arr[i]);}
     printf("enter the searching number:\n");
-        scanf("%d",&s);
+    scanf("%d",&s);
     for(i=0;i<n;i++)
 {
         if(s==arr[i])
@@ -18,5 +17,7 @@ int main()
             break;
         }
     }
+
+    
 return 0;
 }
